@@ -11,7 +11,7 @@ import os
 import re
 import string
 
-from .utils import FileHelper
+from utils import FileHelper
 
 TABSSPACE = re.compile(r'[\s\t]+')
 
