@@ -12,19 +12,19 @@ from urllib.parse import urlparse
 
 import requests
 
-from . import images
-from . import network
-from . import nlp
-from . import settings
-from . import urls
+import images
+import network
+import nlp
+import settings
+import urls
 
-from .cleaners import DocumentCleaner
-from .configuration import Configuration
-from .extractors import ContentExtractor
-from .outputformatters import OutputFormatter
-from .utils import (URLHelper, RawHelper, extend_config,
+from cleaners import DocumentCleaner
+from configuration import Configuration
+from extractors import ContentExtractor
+from outputformatters import OutputFormatter
+from utils import (URLHelper, RawHelper, extend_config,
                     get_available_languages, extract_meta_refresh)
-from .videos.extractors import VideoExtractor
+from videos.extractors import VideoExtractor
 
 log = logging.getLogger(__name__)
 
