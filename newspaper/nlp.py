@@ -6,14 +6,13 @@ __title__ = 'newspaper'
 __author__ = 'Lucas Ou-Yang'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2014, Lucas Ou-Yang'
-
 import re
 import math
 from os import path
 
 from collections import Counter
 
-from . import settings
+import settings
 
 ideal = 20.0
 
