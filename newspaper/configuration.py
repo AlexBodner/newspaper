@@ -12,10 +12,10 @@ __copyright__ = 'Copyright 2014, Lucas Ou-Yang'
 
 import logging
 
-from .parsers import Parser
-from .text import (StopWords, StopWordsArabic, StopWordsChinese,
+from parsers import Parser
+from text import (StopWords, StopWordsArabic, StopWordsChinese,
                    StopWordsKorean, StopWordsHindi, StopWordsJapanese, StopWordsThai)
-from .version import __version__
+from version import __version__
 
 log = logging.getLogger(__name__)
 
