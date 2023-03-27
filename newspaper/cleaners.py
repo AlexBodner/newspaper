@@ -4,7 +4,7 @@ Holds the code for cleaning out unwanted tags from the lxml
 dom xpath.
 """
 import copy
-from .utils import ReplaceSequence
+from utils import ReplaceSequence
 
 
 class DocumentCleaner(object):
