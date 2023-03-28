@@ -17,7 +17,7 @@ import string
 from bs4 import UnicodeDammit
 from copy import deepcopy
 
-from . import text
+import text
 
 log = logging.getLogger(__name__)
 
