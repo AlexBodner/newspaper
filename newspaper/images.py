@@ -17,7 +17,7 @@ import urllib.parse
 import requests
 from PIL import Image, ImageFile
 
-from . import urls
+import urls
 
 log = logging.getLogger(__name__)
 
