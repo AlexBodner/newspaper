@@ -24,7 +24,8 @@ from hashlib import sha1
 
 from bs4 import BeautifulSoup
 
-from . import settings
+
+import settings
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
