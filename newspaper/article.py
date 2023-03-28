@@ -195,7 +195,7 @@ class Article(object):
             if html is None:
                 log.debug('Download failed on URL %s because of %s' %
                           (self.url, self.download_exception_msg))
-                return self.url
+                return self.download_exception_msg
         else:
             html = input_html
 
