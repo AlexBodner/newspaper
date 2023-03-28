@@ -15,7 +15,7 @@ import traceback
 
 from threading import Thread
 
-from .configuration import Configuration
+from configuration import Configuration
 
 log = logging.getLogger(__name__)
 
