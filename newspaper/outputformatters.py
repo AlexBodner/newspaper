@@ -10,7 +10,7 @@ __copyright__ = 'Copyright 2014, Lucas Ou-Yang'
 from html import unescape
 import logging
 
-from .text import innerTrim
+from text import innerTrim
 
 
 log = logging.getLogger(__name__)
